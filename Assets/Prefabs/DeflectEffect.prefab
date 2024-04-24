@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2135797645801019003}
   - component: {fileID: 1945502657555688525}
   - component: {fileID: 3340935241966511240}
+  - component: {fileID: 3280479466278626567}
   m_Layer: 0
   m_Name: DeflectEffect
   m_TagString: Untagged
@@ -96,3 +97,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0600cc091ae36244dad1e72b2837b8b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3280479466278626567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6530338109237218592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortKey: 1536026242
+  ObjectInterest: 1
+  Flags: 262145
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 3340935241966511240}

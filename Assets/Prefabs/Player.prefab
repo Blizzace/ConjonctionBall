@@ -182,10 +182,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64c01765c0df1441b181b84bf78cd29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraTransform: {fileID: 0}
   playerSpeed: 10
   jumpHeight: 1
-  gravityValue: -9.81
-  cameraTransform: {fileID: 0}
+  gravityValueDefault: -9.81
+  gravityValueDownwards: -19.62
   rotationSpeed: 50
   DeflectEffect: {fileID: 6530338109237218592, guid: 104ab0f36de011a49b67307dd17d79a1,
     type: 3}

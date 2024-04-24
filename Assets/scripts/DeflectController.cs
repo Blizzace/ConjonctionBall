@@ -1,8 +1,9 @@
+using Fusion;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DeflectController : MonoBehaviour
+public class DeflectController : NetworkBehaviour
 {
 
 
@@ -10,11 +11,5 @@ public class DeflectController : MonoBehaviour
     void Start()
     {
         Destroy(gameObject,1);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
